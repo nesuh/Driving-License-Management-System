@@ -1,0 +1,433 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+:root {
+    --green: #00C898;
+    --black: #000;
+    --white: #cfcfcf;
+}
+
+body {
+    overflow-x: hidden;
+    /* background: #4B5D06; */
+}
+
+.aa {
+    width: 100%;
+    height: 66rem;
+    position: absolute;
+}
+
+header .logo {
+    width: 20rem;
+    margin: 8px;
+    position: relative;
+    padding-left: 4rem;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+.logo h4 {
+    font-weight: 500;
+    margin-left: 30px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.green {
+    color: #13649F;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+nav.navbar {
+    width: 70rem;
+    padding: 17px;
+    margin-left: 34rem;
+    margin-top: -15rem;
+    height: 100px;
+    position: relative;
+    border: solid #048f27 3px;
+}
+
+/* Login page */
+form.loge {
+    margin: 10rem;
+    margin-left: 30rem;
+    border: solid #00C898 2px;
+    height: 30rem;
+    width: 27rem;
+    align-items: center;
+    position: relative;
+    margin-top: -10rem;
+    background: #D2DAD8;
+}
+
+.loge h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    font: lighter;
+}
+
+.loge .lo input {
+    border: solid #00C898 2px;
+    margin-top: 2rem;
+    margin-left: -1.3rem;
+    padding: 1.5rem .1rem;
+    border-radius: 2rem;
+
+}
+
+nav.Rnavbar {
+    width: 70rem;
+    padding: 17px;
+    margin-left: 10rem;
+    margin-top: 4rem;
+    height: 4rem;
+}
+
+a {
+    margin-top: 4rem;
+    position: relative;
+    margin-left: 3rem;
+    padding: 1rem 2rem;
+    width: 20rem;
+    background-color: #4CAF50;
+    color: #FDFBFF;
+    border-radius: 3rem;
+   
+}
+
+a:hover {
+    background: #D2DAD8;
+    color: #000000;
+    border: #000 2px solid;
+}
+
+a.out{
+    margin-left: 14rem;
+    position: relative;
+    border-radius: 3rem;
+    font-size: larger;
+    color: #0f1107;
+    border-style: dotted;
+   
+}
+
+/*input box for registration*/
+.lo input{
+	
+ width:18rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  
+}
+.lg input{
+ font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+
+  box-sizing: border-box;
+}
+
+
+form .lo {
+    margin-left: 27%;
+    position: relative;
+    margin-top: 45px;
+}
+
+form .lg {
+    margin-left: 27%;
+    position: relative;
+    margin-top: 45px;
+   /* border: solid #191a19 2px;*/
+    padding: 1rem;
+    width: 18rem;
+/* border-radius: 5px;*/
+    height: 3.5rem;
+    font-size: 16px;
+    color: #000000;
+  font-size: 16px;
+  box-sizing: border-box;
+   border: 1px solid #ccc
+ 
+}
+
+
+
+
+.Bform input.reset {
+    margin-left: -2rem;
+}
+
+
+.reg a {
+  bottom:6.4rem;
+   margin-left: 10rem;
+}
+
+/* Break form */
+.Bform {
+    display: flex;
+    margin: 10rem;
+    border: solid #00C898 2px;
+    position: relative;
+    margin-left: 10rem;
+    padding-bottom: 2rem;
+}
+
+.Bform2 {
+    margin-left: 15rem;
+    width: 40rem;
+    position: relative;
+}
+label{
+ font-size: 16px;
+  box-sizing: border-box;
+}
+
+
+.H .Bform2 {
+    border: solid #00C898 2px;
+    margin-left: 22rem;
+    margin-top: 3rem;
+    position: relative;
+    padding: 2rem;
+}
+
+.lo.H {
+    position: relative;
+}
+
+.HL {
+    height: 3.9rem;
+    margin: 3rem;
+    margin-top: -1rem;
+    margin-left: 0.2rem;
+    border-radius: 5rem;
+    /*width: 15rem;*/
+    border: #010003 solid 1px;
+    height: 4rem;
+    position: relative;
+    border-radius: 2rem;
+
+    
+  
+    
+  width:18rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.Bform2 .reset {
+    border: #000 solid 2px;
+    margin-left: 8rem;
+}
+
+.Bform2 a.reset {
+    padding: .7rem 1.8rem;
+}
+.Bform2 .lo input{
+
+}
+
+/* Register button */
+.reset {
+    margin-left: 30%;
+    position: relative;
+    margin-top:-25rem;
+    padding: 15px;
+    width: 8rem;
+    border-radius: 15px;
+    /*background: #00C898;*/
+    color: #FDFBFF;
+    align-items: center;
+    background-color: #4CAF50;
+   /* border-radius: 3rem;*/
+}
+
+.resetHealth{
+  margin-left: 16%;
+    position: relative;
+    margin-top: -2rem;
+    padding: 15px;
+    width: 8rem;
+    border-radius: 15px;
+    /*background: #00C898;*/
+    color: #FDFBFF;
+    align-items: center;
+    background-color: #4CAF50;	
+}
+
+button:hover {
+    background: #D2DAD8;
+    color: #000000;
+    border: #000 2px solid;
+}
+
+.reset:hover {
+    background: #D2DAD8;
+    color: #000000;
+    border: #000 2px solid;
+}
+.resetHealth:hover {
+    background: #D2DAD8;
+    color: #000000;
+    border: #000 2px solid;
+}
+
+
+/* Register form */
+.stu {
+    position: relative;
+    margin-left: 40%;
+    padding: 15px;
+    width: 8rem;
+    border-radius: 15px;
+    margin-top: 1rem;
+    
+   background-color: #4CAF50;
+    color: #FDFBFF;
+    border-radius: 3rem;
+}
+
+.stu:hover {
+    background: #D2DAD8;
+    color: #000000;
+    border: #000 2px solid;
+}
+
+/* Printable data style */
+.printable-data {}
+
+.C1 {
+    border: solid red 2px;
+    width: 40rem;
+    height: 30rem;
+    left: 20rem;
+    position: relative;
+}
+
+button.print {
+    padding: 2rem;
+}
+
+p {
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1rem;
+    margin-left: 6rem;
+}
+
+/* Printable page style */
+footer .copyright {
+    position: absolute;
+    height: 10vh;
+    background-color: #1f0d02;
+    margin-top: 14rem;
+    width: 100%;
+}
+
+/* Error message container */
+.error_container {
+    position: absolute;
+    margin-bottom: 10px;
+    top: -3rem;
+    left: 4rem;
+    color: red;
+    background-color: rgb(63, 13, 1);
+    border-radius: 1rem;
+    padding: 5rem 8rem;
+    animation-name: slideDown;
+    animation-duration: 0.5s;
+    display: none;
+    max-width: 50rem;
+    max-height: 15rem;
+}
+
+#errorcancel {
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: 1.4rem;
+    width: 8rem;
+    border-radius: 15px;
+    background: #ff0303;
+    color: #FDFBFF;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translate(-15%, -50%) scale(0, 0);
+        top: 0;
+    }
+    to {
+        transform: translate(-15%, -28%) scale(1, 1);
+    }
+}
+
+/* Table design */
+.table {
+    border: solid red 2px;
+    contain: content;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: scroll;
+}
+
+table {
+    width: 90rem;
+    font-size: medium;
+    border: 1px solid rgba(1, 14, 17, 0.349);
+    position: relative;
+    background: #FDFBFF;
+}
+
+th,
+td {
+    font-weight: lighter;
+    width: fit-content;
+    border: 1px solid rgba(179, 179, 179, 0.288);
+    box-shadow: 2px 1px 2px rgba(48, 46, 46, 0.589);
+    text-align: center;
+}
+
+th {
+    background: #00C898;
+    color: #FDFBFF;
+}
+
+.TB a {
+    width: 6rem;
+    border: solid red 2px;
+    display: flex;
+    position: relative;
+}

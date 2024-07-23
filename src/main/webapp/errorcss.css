@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.error-popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f44336;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.error-popup p {
+    margin: 0;
+}
+
+.error-popup .close {
+    color: white;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.error-popup .close:hover {
+    color: black;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+    .error-popup {
+        width: 90%;
+        left: 5%;
+        right: auto;
+    }
+}

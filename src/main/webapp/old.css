@@ -1,0 +1,191 @@
+@charset "UTF-8";
+       body {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        
+            font-family: Arial, sans-serif; /* Set default font family */
+        }
+
+    #logo {
+        max-width: 90px; /* Adjust the size of the logo as needed */
+        height: auto;
+        position: fixed;
+        top: 6px;
+        left: 10px;
+        border-radius: 50%; /* Make logo circular */
+    }
+    #title {
+        max-width: 70%; /* Adjust the size of the title as needed */
+        height: auto;
+        position: fixed;
+        top: 10px;
+        left:12rem;
+       
+    }
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header_container {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            max-width: 800px; /* Set maximum width for content */
+            margin: 0 auto; /* Center content horizontally */
+        }
+        h1 {
+            margin-top: 30px;
+            color: #333;
+        }
+       .user_login_form {
+       
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+        margin-top:10rem;
+    background-image: url("myfiles/login_imag.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+        border: 1px solid #ccc;
+        border-radius: 1rem;
+        background-color: #f9f9f9;
+    }
+    .user_login_form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .user_login_form input[type="text"],
+    .user_login_form input[type="password"],
+    .user_login_form select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .user_login_form input[type="submit"],
+    .user_login_form input[type="reset"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+        margin-bottom:.5rem
+    }
+    .user_login_form input[type="submit"]:hover,
+    .user_login_form input[type="reset"]:hover {
+        background-color: #45a049;
+    }
+    .menu {
+        list-style-type: none;
+        margin: 1rem;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 84px; /* Adjust the distance from the top as needed */
+        right: .3rem;
+        left: .3rem;
+        border-radius:.2rem;
+        width: 98%;
+    }
+    .menu li {
+        float: left;
+    }
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left:2rem;
+    }
+    .menu li a:hover {
+        background-color: #111;
+    }
+
+     .user_registration_form {
+        max-width: 500px;
+        margin: 50px auto;
+        padding: 20px;
+     margin-top:10rem;
+      
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    .user_registration_form label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .user_registration_form input[type="text"],
+    .user_registration_form input[type="password"],
+    .user_registration_form select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    .user_registration_form input[type="submit"],
+    .user_registration_form input[type="reset"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+        margin-bottom:.5rem
+    }
+    .user_registration_form input[type="submit"]:hover,
+    .user_registration_form input[type="reset"]:hover {
+        background-color: #45a049;
+    }
+    .view{
+    margin-top:12rem;
+    }
+  
+    @media screen and (max-width: 600px) {
+        .user_registration_form {
+            margin: 20px auto;
+            padding: 10px;
+        }
+    }
+
+ /* Responsive styles */
+    @media screen and (max-width: 600px) {
+        #logo {
+            max-width: 80px; /* Adjust logo size for smaller screens */
+        }
+        #title {
+            max-width: 150px; /* Adjust title size for smaller screens */
+        }
+        .menu li {
+            float: none;
+        }
+    }
+/* Style the menu for small screens */
+@media screen and (max-width: 600px) {
+  .menu li {
+    float: none;
+    display: block;
+  }
+}
+#Search_title{
+	text-align:center;
+}@charset "UTF-8";

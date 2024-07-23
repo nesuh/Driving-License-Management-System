@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+   <link rel="stylesheet" type="text/css" href="mainstyle.css">
+</head>
+<body style="margin-top:11rem;">
+    <table>
+        <tr>
+            <td><img id="logo" src="myfiles/office_logo.png" alt="Project Title"></td>
+            <td><img id="title" src="myfiles/project_title.png" alt="Project Title"></td>
+        </tr>
+    </table>
+    
+    <ul class="menu">
+        <li><a href="file.html">Create User</a></li>
+        <li><a href="UpdateUsersInformation">Update User</a></li>
+        <li><a href="AdminViewUsersPage">View User</a></li>
+        <li><a href="Logout">Logout</a></li>
+    </ul>
+<h1 id="form_title">User Registration Form</h1>
+    <form action="MyFilesUpload" method="post" enctype="multipart/form-data" class="user_registration_form">
+        <label>User ID:</label>
+        <input type="text" name="user_id"><br><br>
+        
+        <label>First Name:</label>
+        <input type="text" name="fname"><br><br>
+        
+        <label>Middle Name:</label>
+        <input type="text" name="mname"><br><br>
+        
+        <label>Last Name:</label>
+        <input type="text" name="lname"><br><br>
+        
+        <label>User Password:</label>
+        <input type="password" name="password"><br><br>
+          <label>User Name:</label>
+        <input type="text" name="user_name"><br><br>
+        
+        <label>User Type:</label>
+        <select name="user_type">
+            <option value="Admin">Admin</option>
+            <option value="Registrar">Registrar</option>
+            <option value="Owner">Owner</option>
+        </select><br><br>
+        
+        <label>User Status:</label>
+        <select name="user_status">
+            <option value="ACTIVE">ACTIVE</option>
+            <option value="BLOCK">BLOCK</option>
+        </select><br>
+                <label>User Image:</label>
+        <input type="file" name="file"><br><br>
+        
+        <input type="submit" value="Submit" name="submit">
+        <input type="reset" value="Reset" name="reset">
+        
+    </form>
+   <footer>
+  <div class="footer_container">
+    <p>&copy; 2024 Debre Markos Driving Licence Office. All rights reserved.</p>
+    <p>Contact: info@drivinglicence.com</p>
+  </div>
+</footer>
+   
+</body>
+</html>
+        

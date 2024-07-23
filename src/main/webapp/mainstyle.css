@@ -1,0 +1,346 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   width:100%;
+   height:100vh;
+   background-color:white;
+
+}
+
+/*these is for header page bro!*/
+/* CSS for header image */
+.headerImage {
+  max-width: 100%; /* Ensure the image does not exceed its container width */
+  height: 30rem; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Center the image horizontally within its container */
+  border-radius: 5px; /* Add a border-radius for a rounded appearance */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   /* Add a subtle box shadow for depth */
+   border:solid 2px black;
+}
+.headerImage img{
+	border:solid 20rem red;
+	margin-top:10rem;
+	
+}
+
+
+
+
+    #logo {
+        max-width: 90px; /* Adjust the size of the logo as needed */
+        height: auto;
+        position: fixed;
+        top: 6px;
+        left: 10px;
+        border-radius: 50%; /* Make logo circular */
+    }
+    #title {
+        max-width: 70%; /* Adjust the size of the title as needed */
+        height: auto;
+        position: fixed;
+        top: 10px;
+        left:12rem;
+       
+    }
+/* Header styles */
+.header_container {
+  background-color: #4CAF50; /* Green */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+  .menu {
+        list-style-type: none;
+        margin: 1rem;
+        padding: 0;
+        overflow: hidden;
+         background-color: #4CAF50; /* Green */
+        position: fixed;
+        top: 84px; /* Adjust the distance from the top as needed */
+        right: .3rem;
+        left: .3rem;
+        border-radius:.2rem;
+        width: 98%;
+        margin-top:6rem;
+    }
+    .menu li {
+        float: left;
+    }
+    .menu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left:2rem;
+    }
+    .menu li a:hover {
+        background-color: #111;
+    }
+    
+  /*user registrationPage*/
+ {
+  margin-top:8rem;
+  }  
+  
+
+#print_button_div{
+	width: 310px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px blue;
+        position:absolute;
+    top:0rem;
+    left:35%;
+}
+/* CSS for table */
+.card {
+    width: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.card_table {
+    width: 100%;
+}
+.card_table img{
+	border-radius:2rem;
+}
+.card_header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#image_row{
+border:1px;
+}
+#update_button{
+	        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+#print_card{
+	        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+#card_cancel{
+	   background-color: red;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+.delete_button{
+	        background-color: #f44336;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+#form_title{
+    margin: 10px auto;
+    color:red;
+ 
+    text-align:center;
+	
+}
+
+#search_title{
+    margin: 10px auto;
+    margin-top:4rem;
+    text-align:center;
+	
+}
+
+/* Form styles */
+.user_registration_form, .user_login_form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+
+    border-radius:2rem;
+   
+}
+.user_login_form input[type="password"]{
+	width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.user_registration_form label, .user_login_form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user_registration_form input[type="text"],
+.user_registration_form input[type="password"],
+.user_login_form input[type="text"],
+.user_registration_form input[type="file"],
+.user_registration_form input[type="date"],
+.user_registration_form select{
+    /*width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    */
+      width:18rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+select option {
+    padding: 10px;
+        width: 100%;
+    
+}
+.user_registration_form input[type="submit"],
+.user_registration_form input[type="reset"],
+.user_login_form input[type="submit"],
+.user_login_form input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:#4CAF50;
+    color: #fff;
+    margin-bottom:.6rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    
+}
+
+.user_registration_form input[type="submit"]:hover,
+.user_registration_form input[type="reset"]:hover,
+.user_login_form input[type="submit"]:hover,
+.user_login_form input[type="reset"]:hover {
+    background-color: #555;
+}
+   .content_container {
+            text-align: center;
+            margin-top: 12rem;
+            
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            color:red;
+        }
+        
+        /* CSS for Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer_container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.container p {
+  margin: 10px 0;
+}
+
+/* Responsive Footer */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+        
+        @media only screen and (min-width: 768px) {
+            /* Adjustments for larger screens */
+            h1 {
+                font-size: 36px;
+            }
+        }
+/* Table styles */
+.view {
+    width: 90%;
+    border-collapse: collapse;
+    margin:2rem;
+    margin-top:11rem;
+}
+
+.view th, .view td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.view th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .user_registration_form, .user_login_form {
+        width: 80%;
+    }
+  #logo {
+            max-width: 80px; /* Adjust logo size for smaller screens */
+        }
+        #title {
+            max-width: 150px; /* Adjust title size for smaller screens */
+        }
+    .header_container {
+        padding: 10px;
+    }
+}
+/* Responsive CSS */
+@media screen and (max-width: 600px) {
+  .card {
+    width: 90%; /* Adjust as needed */
+  }
+}

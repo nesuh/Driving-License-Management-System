@@ -1,0 +1,209 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  margin:0;padding: 0;
+text-decoration: none;
+text-transform: capitalize;
+transition: all .2s linear;
+}
+:root{
+   
+  --green: #4CAF50;
+--black:#000;
+--white:#cfcfcf;
+}
+.heading{
+  /* border: solid red 2px; */
+  padding:1rem;
+}
+
+
+  .error_container {
+    position: absolute;
+    margin-bottom: 10px;
+    top: 10rem;
+    left: 20rem;
+    color: red;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 7rem 8rem;
+    animation-name: slideDown;
+  animation-duration: 0.5s;
+  display:block;
+  max-width: 50%;
+  max-height: 30%;
+  }
+  #errorcancel{
+    position: relative;
+    color: red;
+    padding: 0.5rem 3rem;
+    text-align: center;
+    background-color: var(--frist_color);
+    color: var(--third_color);
+    margin: auto;
+  }
+  #errorcancel:hover{
+    opacity: 0.6;
+  }
+
+
+
+
+
+.head h2{
+  padding:2rem;
+  font-size: 2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* border-left:1px solid  #4CAF50 ; */
+margin-left: 10rem;
+margin-top:-9rem;
+}
+head.aa{
+  border: solid black 2px; 
+  
+}
+.HeadingPart{
+	position:absolute;
+	top:0;
+	 position:fixed;
+}
+
+.logo .aa{
+  /* border: 2px solid; */
+  height: 10rem;
+  padding: 1rem;
+
+}
+.loge input{
+  
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lo input{
+    width: 15rem;
+   border: hsla(271, 64%, 11%, 0.957) solid;
+ 
+ /* border-bottom:solid #13649F 4px ; */
+ background: transparent;
+ color: hsla(271, 64%, 11%, 0.957); 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ border-radius: 1rem;
+ background:#FDFBFF;
+}
+::placeholder{
+  margin: center;
+}
+button{
+  border: solid black 2px;
+  margin-top: 2rem; 
+  margin-left: 3rem; 
+}
+/* CSS for input fields */
+.lo {
+  position: relative;
+  margin-bottom: 10px;
+
+  width: 22rem;
+  height: 4rem;
+
+}
+
+.lo input[type="text"],
+.lo input[type="password"] {
+  width:18rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+/* CSS for icon */
+.lo .icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px; /* Adjust as needed */
+  width: 20px; /* Adjust icon size */
+  height: auto;
+  margin-top: 1.7rem;
+  margin-right: 2.5rem;
+
+}
+h3{
+  font-size: 2rem;
+  box-sizing: border-box; 
+  margin-left:3.5rem;
+
+}
+/* Additional styling for buttons */
+.reset {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset:hover {
+  background-color: #45a049;
+}
+form.loge{
+
+  border-left:solid black 8px ;
+  border-top:solid black 7px ;
+  width: 23rem;
+  height: 22rem; 
+  margin-left: 60rem;
+  margin-top: -30rem;
+  border-radius: 2rem;
+}
+.forget{
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer{
+  background-color: rgb(128, 0, 51);
+  border:solid green red;
+  /* padding: 20rem; */
+ 
+
+p{
+  margin-top:2rem;
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 1rem;
+  margin-left: 6rem;
+}
+footer{
+  margin-top:6rem;
+}
